@@ -26,6 +26,7 @@ const handleUserInput = (char) => {
   if (char === 'x') {
     process.exit();
   }
+  connection.write("Say: hi");
 };
 
 module.exports = { setupInput };
